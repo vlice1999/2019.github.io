@@ -73,7 +73,7 @@ AX7021 底板上有 5 路千兆以太网接口，其中 1 路以太网接口是�
 AX7021底板上有4个USB2.0 HOST接口， USB2.0收发器采用的是一个1.8V的，高速的支持ULPI标准接口的USB3320C-EZK芯片，再通过一个USB HUB芯片USB2514扩展出4路USB HOST接口。
 ### （四）HDMI输出接口
 SIL9134 的视频数字接口，音频数字接口和 I2C 配置接口和 ZYNQ7000 PL 部分的 BANK35 IO 相连，ZYNQ7000 系统通过 I2C 管脚来对 SIL9134 进行初始化和控制操作。
-![HDMI接口设计原理图](https://github.com/vlice1999/2019.github.io/blob/master/HDML.png)
+![HDMI](https://github.com/vlice1999/2019.github.io/blob/master/HDML.png)
 ### （五）USB转串口
 USB 接口采用 MINI USB 接口，可以用一根USB线将它连接到上 PC 的 USB 口进行核心板的单独供电和串口数据通信。
 ### （六）SD卡槽
